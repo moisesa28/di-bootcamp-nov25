@@ -60,3 +60,49 @@ print(info)
 #Each variable’s value should be a number.
 #If a is bigger than b, have your code print "Hello World".
 
+a = 17
+b = 13
+
+if a>b:
+    print('Hello world.')
+
+elif a<b:
+    print('Goodbye world!')
+
+#Exercise 7: Odd or Even
+#Write code that asks the user for a number and determines whether this number is odd or even.
+
+choose_number = int(input('Choose a number '))
+
+if choose_number % 2 == 0:
+    print('Even')
+if choose_number % 2 != 0:
+    print('Odd')
+
+#Exercise 8: What’s your name?
+#Write code that asks the user for their name and
+#determines whether or not you have the same name.
+#Print out a funny message based on the outcome.
+
+user_name = input('What is your name ')
+
+if user_name == 'Moises':
+    print('Oh, your name is the Best!')
+
+elif user_name != 'Moises':
+    print('I am sorry about your awful name')
+
+
+#Exercise 9: Tall enough to ride a roller coaster
+#Write code that will ask the user for their height in centimeters.
+#If they are over 145 cm, print a message that states they are tall enough to ride.
+#If they are not tall enough, print a message that says they need to grow some more to ride.
+
+height_cm = input('What is your heigh in cm ')
+
+if height_cm > '145':
+    print('You are tall enough to ride, please come in.')
+
+elif height_cm <='145':
+    print('You need to take vitamins to grow more, bye bye.')
+
