@@ -1,0 +1,9 @@
+URL: URL: https://github.com/moisesa28/di-bootcamp-nov25/blob/ecf40e02163cffa543b814eceedc24f2bf9dd18f/week1/day1/exercisexp/exercisexp.py
+suggestions for improvement:
+- In Exercise 1, consider using a loop or string multiplication for better readability.
+- In Exercise 3, you correctly predicted the output, but the instructions asked for a comment *before* running the code, explicitly stating your guess. Ensure you follow instructions precisely.
+- In Exercise 7, you can combine the `if` statements into an `if...else` statement for better logic and readability.
+- In Exercise 9, you're comparing a string to an integer. Convert the input to an integer before comparison.
+- Consider using more descriptive variable names for enhanced readability.
+Correctness: 90%
+-----
