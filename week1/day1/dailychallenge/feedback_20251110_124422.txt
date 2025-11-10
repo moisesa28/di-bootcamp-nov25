@@ -1,0 +1,7 @@
+URL: URL: https://github.com/moisesa28/di-bootcamp-nov25/blob/82d01a6a42ccc22a5187a6178eaa9c9f07c9a557/week1/day1/dailychallenge/dailychallenge.py
+suggestions for improvement:
+- The code only partially fulfills the requirements. It handles the user input and checks the string length, but it doesn't print the first and last characters or build the string character by character as requested.
+- The code lacks the implementation of steps 3 and 4 from the instructions. It needs to extract and print the first and last characters of the string when the length is exactly 10, and it also needs to build and print the string character by character using a loop.
+- Consider adding an `else` statement after the `if len(user_info) > 10:` block to avoid unnecessary checks when the string is longer than 10 characters.  Currently, if the string is, say, 12 characters, it will print 'String too long' and then still check if it's equal to 10.
+Correctness: 50%
+-----
